@@ -26,6 +26,7 @@ const listItemRef = document.createElement('li');
 // console.log(listItemRef);
 
 const imegRef = document.createElement('img');
+// listItemRef.insertAdjacentHTML('afterbegin', `<img src = ${elem.url} , alt = ${elem.alt}>`)
 imegRef.setAttribute('src', `${elem.url}`);
 imegRef.setAttribute('alt', `${elem.alt}`);
 
