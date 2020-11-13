@@ -14,4 +14,25 @@ const images = [
         'https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
       alt: 'Group of Horses Running',
     },
-  ];
+];
+
+
+const galleryRef = document.querySelector('#gallery');
+
+console.log(galleryRef);
+
+const list = images.map(elem => {
+const listItemRef = document.createElement('li');
+// console.log(listItemRef);
+
+const imegRef = document.createElement('img');
+imegRef.setAttribute('src', `${elem.url}`);
+imegRef.setAttribute('alt', `${elem.alt}`);
+
+// console.log(imegRef);
+
+listItemRef.appendChild(imegRef);
+galleryRef.appendChild(listItemRef);
+
+return listItemRef
+});
