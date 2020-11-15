@@ -8,8 +8,8 @@ const boxRef = document.querySelector('#boxes');
 // console.log(destroyRef);
 // console.log(numberRef);
 // console.log(boxRef);
-const submitInput = document.addEventListener('clik', onCreateBoxes());
-const clinPage = document.addEventListener('clik', onDestroyBoxes());
+const submitInput = document.addEventListener('click', onCreateBoxes());
+const clinPage = document.addEventListener('click', onDestroyBoxes());
 
 
 function onCreateBoxes(amount) {
