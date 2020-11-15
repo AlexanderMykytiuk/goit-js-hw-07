@@ -31,7 +31,7 @@ function randomBoxColor() {
     const z = Math.floor(Math.random() * 256);
     const boxColor = `rgb(${x},${y},${z})`;
   
-    makersDiv.style.background-color = boxColor;
+    makersDiv.style.color = boxColor;
     }
     // randomBoxColor();
 
