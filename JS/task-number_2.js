@@ -18,10 +18,10 @@ const ingredients = [
 });
   
    
-  const ingredientList = ingredients.map(element => {
-    const list = document.createElement("li");
-    list.textContent = (element);
-    return (list);
-});
-    const ingredientsEl = document.querySelector("#ingredients");
-    ingredientsEl.append(...ingredientList);
+//   const ingredientList = ingredients.map(element => {
+//     const list = document.createElement("li");
+//     list.textContent = (element);
+//     return (list);
+// });
+//     const ingredientsEl = document.querySelector("#ingredients");
+//     ingredientsEl.append(...ingredientList);
