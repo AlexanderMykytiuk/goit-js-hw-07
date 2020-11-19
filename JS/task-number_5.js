@@ -11,9 +11,9 @@ function onNameUser(e) {
    : 'незнакомец';
 };
 
-function onCleanNameUser(e) {
-    if (e.code === 'Enter') {
-        e.target.value = '';
-        outputRef.textContent = 'незнакомец';
-    }; 
-};
+// function onCleanNameUser(e) {
+//     if (e.code === 'Enter') {
+//         e.target.value = '';
+//         outputRef.textContent = 'незнакомец';
+//     }; 
+// };

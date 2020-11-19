@@ -10,7 +10,7 @@ function onBlurInput(e) {
     : inputRef.classList.add('invalid')
 };
 
-function onFocusInput(e) {
-    e.target.value = ''
-    inputRef.classList.remove('valid', 'invalid')
-};
+// function onFocusInput(e) {
+//     e.target.value = ''
+//     inputRef.classList.remove('valid', 'invalid')
+// };
