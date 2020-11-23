@@ -5,7 +5,8 @@ inputRef.addEventListener('blur', onBlurInput);
 // inputRef.addEventListener('focus', onFocusInput);
 
 function onBlurInput(e) {
-    e.target.value.length === 6
+    const dataLength = Number(inputRef.getAttribute("data-length"));
+    e.target.value.length === dataLength
     ? inputRef.classList.add('valid') 
     : inputRef.classList.add('invalid')
 };
